@@ -1,6 +1,7 @@
 package src;
 // import college.Student;
-import src.college.Student;
+import src.college.*;
+import src.School.*;
 public class Demo2 {
     public static void main(String[] args) {
 //      Student_1 s1= new Student_1 ("rohit",23,54,"dy patil");
@@ -40,8 +41,8 @@ public class Demo2 {
 //         System.out.println("Attendence is marked" + name);
 //     }
 
-Student s1=new Student ();
-s1.print();
+// src.college.Student s1=new Student ();
+// s1.print();
 
 src.School.Student s2=new src.School.Student();
 s2.print();
