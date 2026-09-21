@@ -10,9 +10,13 @@ public class innerclass {
     }
 }
 class Outer{
+    int x=10;
     class Inner{
+        int x=20;
 void fun(){
-    System.out.println("hello");
+    System.out.println(x);
+     System.out.println(Outer.this.x);
+
 }
     }
 }
